@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		342CC3602E8F74AF00547E45 /* CryptoHelpers in Frameworks */ = {isa = PBXBuildFile; productRef = 342CC35F2E8F74AF00547E45 /* CryptoHelpers */; };
+		345D89352E9317790019892B /* CryptoHelpers in Resources */ = {isa = PBXBuildFile; fileRef = 345D89262E9317790019892B /* CryptoHelpers */; };
+		34ACB9702E945B250007ECFD /* Settings in Frameworks */ = {isa = PBXBuildFile; productRef = 34ACB96F2E945B250007ECFD /* Settings */; };
+		34ACB9722E945B5B0007ECFD /* Settings in Frameworks */ = {isa = PBXBuildFile; productRef = 34ACB9712E945B5B0007ECFD /* Settings */; };
+		34D6C7372E9326D800324C8F /* CryptoHelpers in Frameworks */ = {isa = PBXBuildFile; productRef = 34D6C7362E9326D800324C8F /* CryptoHelpers */; };
+		34D6C76E2E934D0A00324C8F /* AES256Logic in Frameworks */ = {isa = PBXBuildFile; productRef = 34D6C76D2E934D0A00324C8F /* AES256Logic */; };
+		34D6C7702E934D0A00324C8F /* Base64Logic in Frameworks */ = {isa = PBXBuildFile; productRef = 34D6C76F2E934D0A00324C8F /* Base64Logic */; };
+		34D6C7722E934D0A00324C8F /* RSALogic in Frameworks */ = {isa = PBXBuildFile; productRef = 34D6C7712E934D0A00324C8F /* RSALogic */; };
+		34D6C7742E934D0A00324C8F /* XChaChaPolyLogic in Frameworks */ = {isa = PBXBuildFile; productRef = 34D6C7732E934D0A00324C8F /* XChaChaPolyLogic */; };
+		34D6C7782E9355C900324C8F /* CipherLogic in Frameworks */ = {isa = PBXBuildFile; productRef = 34D6C7772E9355C900324C8F /* CipherLogic */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		344D5D972E9452D100AA6931 /* SettingsModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SettingsModule; sourceTree = "<group>"; };
+		345D88BB2E9315F50019892B /* Live Data Editor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Live Data Editor.xcodeproj"; sourceTree = "<group>"; };
+		345D88E32E9316840019892B /* Live Data Editor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Live Data Editor.xcodeproj"; sourceTree = "<group>"; };
+		345D89262E9317790019892B /* CryptoHelpers */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CryptoHelpers; sourceTree = "<group>"; };
+		34931C8F2E8F26C3002DDF2E /* Live Data Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Live Data Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D6C75D2E934CAA00324C8F /* CipherLogic */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CipherLogic; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		34931C912E8F26C3002DDF2E /* Live Data Editor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Live Data Editor";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34931C8C2E8F26C3002DDF2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342CC3602E8F74AF00547E45 /* CryptoHelpers in Frameworks */,
+				34ACB9702E945B250007ECFD /* Settings in Frameworks */,
+				34D6C76E2E934D0A00324C8F /* AES256Logic in Frameworks */,
+				34D6C7742E934D0A00324C8F /* XChaChaPolyLogic in Frameworks */,
+				34D6C7722E934D0A00324C8F /* RSALogic in Frameworks */,
+				34D6C7702E934D0A00324C8F /* Base64Logic in Frameworks */,
+				34ACB9722E945B5B0007ECFD /* Settings in Frameworks */,
+				34D6C7372E9326D800324C8F /* CryptoHelpers in Frameworks */,
+				34D6C7782E9355C900324C8F /* CipherLogic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		345D88BE2E9315F50019892B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		345D88E62E9316840019892B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34931C862E8F26C3002DDF2E = {
+			isa = PBXGroup;
+			children = (
+				344D5D972E9452D100AA6931 /* SettingsModule */,
+				34D6C75D2E934CAA00324C8F /* CipherLogic */,
+				345D89262E9317790019892B /* CryptoHelpers */,
+				34931C912E8F26C3002DDF2E /* Live Data Editor */,
+				34D6C7542E934B8B00324C8F /* Frameworks */,
+				34931C902E8F26C3002DDF2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34931C902E8F26C3002DDF2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34931C8F2E8F26C3002DDF2E /* Live Data Editor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34D6C7542E934B8B00324C8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34931C8E2E8F26C3002DDF2E /* Live Data Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34931C9A2E8F26C5002DDF2E /* Build configuration list for PBXNativeTarget "Live Data Editor" */;
+			buildPhases = (
+				34931C8B2E8F26C3002DDF2E /* Sources */,
+				34931C8C2E8F26C3002DDF2E /* Frameworks */,
+				34931C8D2E8F26C3002DDF2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				34931C912E8F26C3002DDF2E /* Live Data Editor */,
+			);
+			name = "Live Data Editor";
+			packageProductDependencies = (
+				342CC35F2E8F74AF00547E45 /* CryptoHelpers */,
+				34D6C7362E9326D800324C8F /* CryptoHelpers */,
+				34D6C76D2E934D0A00324C8F /* AES256Logic */,
+				34D6C76F2E934D0A00324C8F /* Base64Logic */,
+				34D6C7712E934D0A00324C8F /* RSALogic */,
+				34D6C7732E934D0A00324C8F /* XChaChaPolyLogic */,
+				34D6C7772E9355C900324C8F /* CipherLogic */,
+				34ACB96F2E945B250007ECFD /* Settings */,
+				34ACB9712E945B5B0007ECFD /* Settings */,
+			);
+			productName = "Live Data Editor";
+			productReference = 34931C8F2E8F26C3002DDF2E /* Live Data Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34931C872E8F26C3002DDF2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					34931C8E2E8F26C3002DDF2E = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 34931C8A2E8F26C3002DDF2E /* Build configuration list for PBXProject "Live Data Editor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34931C862E8F26C3002DDF2E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				34D6C7352E9326D800324C8F /* XCLocalSwiftPackageReference "CryptoHelpers" */,
+				34D6C76C2E934D0A00324C8F /* XCLocalSwiftPackageReference "CipherLogic" */,
+				34ACB96E2E945B250007ECFD /* XCLocalSwiftPackageReference "SettingsModule" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 34931C902E8F26C3002DDF2E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 345D88E62E9316840019892B /* Products */;
+					ProjectRef = 345D88E32E9316840019892B /* Live Data Editor.xcodeproj */;
+				},
+				{
+					ProductGroup = 345D88BE2E9315F50019892B /* Products */;
+					ProjectRef = 345D88BB2E9315F50019892B /* Live Data Editor.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				34931C8E2E8F26C3002DDF2E /* Live Data Editor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34931C8D2E8F26C3002DDF2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345D89352E9317790019892B /* CryptoHelpers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34931C8B2E8F26C3002DDF2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34931C982E8F26C5002DDF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34931C992E8F26C5002DDF2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		34931C9B2E8F26C5002DDF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Live Data Editor";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vhscrow.data-editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		34931C9C2E8F26C5002DDF2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Live Data Editor";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vhscrow.data-editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34931C8A2E8F26C3002DDF2E /* Build configuration list for PBXProject "Live Data Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34931C982E8F26C5002DDF2E /* Debug */,
+				34931C992E8F26C5002DDF2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34931C9A2E8F26C5002DDF2E /* Build configuration list for PBXNativeTarget "Live Data Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34931C9B2E8F26C5002DDF2E /* Debug */,
+				34931C9C2E8F26C5002DDF2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		34ACB96E2E945B250007ECFD /* XCLocalSwiftPackageReference "SettingsModule" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = SettingsModule;
+		};
+		34D6C7352E9326D800324C8F /* XCLocalSwiftPackageReference "CryptoHelpers" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = CryptoHelpers;
+		};
+		34D6C76C2E934D0A00324C8F /* XCLocalSwiftPackageReference "CipherLogic" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = CipherLogic;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		342CC35F2E8F74AF00547E45 /* CryptoHelpers */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CryptoHelpers;
+		};
+		34ACB96F2E945B250007ECFD /* Settings */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Settings;
+		};
+		34ACB9712E945B5B0007ECFD /* Settings */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Settings;
+		};
+		34D6C7362E9326D800324C8F /* CryptoHelpers */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CryptoHelpers;
+		};
+		34D6C76D2E934D0A00324C8F /* AES256Logic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AES256Logic;
+		};
+		34D6C76F2E934D0A00324C8F /* Base64Logic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Base64Logic;
+		};
+		34D6C7712E934D0A00324C8F /* RSALogic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RSALogic;
+		};
+		34D6C7732E934D0A00324C8F /* XChaChaPolyLogic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = XChaChaPolyLogic;
+		};
+		34D6C7772E9355C900324C8F /* CipherLogic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CipherLogic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 34931C872E8F26C3002DDF2E /* Project object */;
+}
